@@ -1,0 +1,28 @@
+{
+  "name": "comik",
+  "version": "1.0.0",
+  "description": "A comic project",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phavor/comik.git"
+  },
+  "keywords": [
+    "webpack",
+    "comics",
+    "api",
+    "marvel"
+  ],
+  "author": "Favour George <phavorsparks@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/phavor/comik/issues"
+  },
+  "homepage": "https://github.com/phavor/comik#readme",
+  "dependencies": {
+    "axios": "0.18.0"
+  }
+}
