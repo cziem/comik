@@ -1,6 +1,6 @@
 require('../config/config')
-const crypto = require('crypto')
-const axios = require('axios')
+import { crypto } from 'crypto'
+import axios from 'axios'
 
 
 const key = process.env.API_KEY
