@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack --mode=development",
-    "build": "babel src -d dist --mode=production"
+    "build": "babel src -d dist --mode=production",
+    "start:dev": "webpack-dev-server --mode=development"
   },
   "repository": {
     "type": "git",
@@ -27,7 +28,8 @@
   "dependencies": {
     "axios": "0.18.0",
     "webpack": "4.29.3",
-    "webpack-cli": "3.2.3"
+    "webpack-cli": "3.2.3",
+    "webpack-dev-server": "3.1.14"
   },
   "devDependencies": {
     "@babel/cli": "7.2.3",

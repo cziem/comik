@@ -27,5 +27,10 @@ export default {
   stats: {
     colors: true
   },
-  devtool: 'source-map'
+  devtool: 'source-map',
+  devServer: {
+    hot: true,
+    contentBase: path.join(__dirname, 'src'),
+    port: 8000
+  }
 };
