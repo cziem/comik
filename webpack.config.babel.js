@@ -18,7 +18,7 @@ export default {
   plugins: [
     new HtmlWebpackPlugin({
       title: 'comik',
-      template: path.join(__dirname, 'public/index.html')
+      template: path.join(__dirname, 'src/public/index.html')
     }),
     new ScriptExtHtmlWebpackPlugin({
       defaultAttribute: 'defer'
@@ -27,10 +27,10 @@ export default {
   stats: {
     colors: true
   },
-  devtool: 'source-map',
+  // devtool: 'source-map',
+  devtool: 'cheap-module-eval-source-map',
   devServer: {
-    hot: true,
-    contentBase: path.join(__dirname, 'src'),
+    contentBase: path.join(__dirname, 'dist'),
     port: 8000
   }
 };

@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack --mode=development",
     "build": "babel src -d dist --mode=production",
-    "start:dev": "webpack-dev-server --mode=development"
+    "start:dev": "webpack-dev-server --hot --inlinie --watch --open --mode=development"
   },
   "repository": {
     "type": "git",
